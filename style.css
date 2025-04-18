@@ -4,6 +4,18 @@
     padding: 0px;
     font-size: 0.9rem;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vb;
+}
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #d7d7d7;
+}
 .head{
     width: 100%;
     background-color: rgb(82, 107, 171);
@@ -43,7 +55,6 @@ h1:hover{
 .low{
     display: flex;
     gap: 1rem;
-    
 }
 .input-bar{
     display: flex;
@@ -63,8 +74,6 @@ h1:hover{
 .input-bar a:hover{
     text-decoration: underline;
 }
-
-
 .log{
     display: flex;
     align-items: center;
@@ -82,4 +91,46 @@ h1:hover{
 }
 .log p{
     color: rgb(255, 255, 255);
+}
+footer{
+    padding: 1rem;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    background-color: #ffffffce;
+}
+.footer-up{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer-up a:hover{
+    text-decoration: underline;
+}
+.hy{
+    width: 2rem;
+    aspect-ratio: 1rem;
+    background-color: #cfcccc;
+    border: 1px solid transparent;
+}
+.hy:hover{
+    cursor: pointer;
+}
+.first-anchor{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-right: 0.3rem;
+}
+.Other-anchor{
+    padding: 0.3rem;
+}
+.footer-low a:hover{
+    text-decoration: underline;
 }
