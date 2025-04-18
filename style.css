@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.9rem;
+}
+.head{
+    width: 100%;
+    background-color: rgb(82, 107, 171);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    color: aliceblue;
+}
+h1:hover{
+    cursor: pointer;
+}
+.first{
+    display: flex;
+    gap: 1rem;
+    padding: 15px;
+    align-items: center;
+    
+}
+.first button{
+    width:10rem;
+    height: 35px;
+    background-color: rgb(53, 192, 62);
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.first button:hover{
+    opacity: 0.9;
+}
+.first p{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #d7d7d7;
+}
+.low{
+    display: flex;
+    gap: 1rem;
+    
+}
+.input-bar{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline}
+.input-bar input{
+    height: 25px;
+}
+.input-bar a{
+    text-decoration: none;
+    color: rgb(167, 174, 174);
+}
+.input-bar p{
+  padding: 3px;
+  color: #ffffff;
+}
+.input-bar a:hover{
+    text-decoration: underline;
+}
+
+
+.log{
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+}
+.log button{
+    background-color: rgb(68, 75, 152);
+    border: 1px solid transparent;
+    width: 3rem;
+    height: 25px;
+    cursor: pointer;
+}
+.log button:hover{
+    opacity: 0.5;
+}
+.log p{
+    color: rgb(255, 255, 255);
+}
